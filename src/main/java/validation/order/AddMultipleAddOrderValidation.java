@@ -45,8 +45,13 @@ public class AddMultipleAddOrderValidation extends AddOrderValidation {
                 "(,((\\d+:\\d+)|([^\"]+:\\d+)|([a-zA-Z]+\\d*:\\d+)))*\\]$";
         String regex3 = "\\/addorder\\s*-I\\s*\\[((\\d+:\\d+)|(\"[^\"]+\":\\d+)|([a-zA-Z]+\\d*:\\d+))" +
                 "(,((\\d+:\\d+)|(\"[^\"]+\":\\d+)|([a-zA-Z]+\\d*:\\d+)))*\\]$";
+        String regex4 = "\\/addorder\\s*--items\\s*\\[((\\d+:\\d+)|([^\"]+:\\d+)|([a-zA-Z]+\\d*:\\d+))" +
+                "(,((\\d+:\\d+)|([^\"]+:\\d+)|([a-zA-Z]+\\d*:\\d+)))*\\]$";
+        String regex5 = "\\/addorder\\s*--items\\s*\\[((\\d+:\\d+)|(\"[^\"]+\":\\d+)|([a-zA-Z]+\\d*:\\d+))" +
+                "(,((\\d+:\\d+)|(\"[^\"]+\":\\d+)|([a-zA-Z]+\\d*:\\d+)))*\\]$";
 
-        if (!input.matches(regex) && !input.matches(regex2) && !input.matches(regex3)) {
+        if (!input.matches(regex) && !input.matches(regex2) && !input.matches(regex3)
+                && !input.matches(regex4) && !input.matches(regex5)) {
 
             if (arg.getArgumentString().contains("-I") || arg.getArgumentString().contains("--items")) {
 

@@ -46,7 +46,6 @@ public class AddOrderValidation extends Validation {
             item = command.getArgumentMap().get("item");
         }
 
-        System.out.println("Testing: " + item);
 
         return checkIfSingleItemNameValid(item);
 

@@ -27,16 +27,16 @@ Given below are my contributions to the project:
 <div style="page-break-after: always;"></div>
 
 #### Contributions to the UG
-* Made the UG more user-friendly, with more emphasis on content.
+* Made the UG more user-friendly, with more emphasis on content. 
 
 #### Contributions to the DG
-* Drew up the Architecture diagrams and UML diagrams for all the features in MoneyGoWhere.
+* Drew up the Architecture diagrams and UML diagrams for all the features in MoneyGoWhere. 
 
 ### Contributions to Team-based Tasks
-* Created the structure of the whole project.
-* Drew up Architecture diagrams and UML diagrams for the DG and for reference purposes.
-* Linked issues found in PE-D to the respective owners of the functions with reported bugs.
-* Enforced OOP during the early stages of the application's development.
+* Created the structure of the whole project. 
+* Drew up Architecture diagrams and UML diagrams for the DG and for reference purposes. 
+* Linked issues found in PE-D to the respective owners of the functions with reported bugs. 
+* Enforced OOP during the early stages of the application's development. 
 
 #### Reviewing / Mentoring contributions
 * Helped teammates familiarise themselves with using `assert` and JUnit testing.
